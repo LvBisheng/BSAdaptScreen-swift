@@ -1,0 +1,16 @@
+PODS:
+  - BSAdaptScreen-swift (1.0.0)
+
+DEPENDENCIES:
+  - BSAdaptScreen-swift (from `../`)
+
+EXTERNAL SOURCES:
+  BSAdaptScreen-swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSAdaptScreen-swift: 09ed939799e33514b8095d519830e74571a300c0
+
+PODFILE CHECKSUM: 84c7fb9933259bbc09ee72e27ef51e521233e718
+
+COCOAPODS: 1.7.0.beta.3

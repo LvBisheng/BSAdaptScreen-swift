@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F79370230CDF83FD10493C17AA72F8 /* BSUIViewAdaptScreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81104317318C52D4B2C37C334FE17686 /* BSUIViewAdaptScreenExtensions.swift */; };
+		2366159A0D020C7EB2C64C0A9AC5E0B5 /* Pods-BSAdaptScreen-swift-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B186B3EA06118EC66DE80326E46923B5 /* Pods-BSAdaptScreen-swift-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A2ADAF822809B917491E8F56DC6BF31 /* BSAdaptScreen-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E50BCF2BE2EF0F8B7712FC9893718C /* BSAdaptScreen-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CAD06C4B4789A4E2218740AEC23863B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		8A400C32348A4708A706B3D803A9538A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		A1FCADDED3B0CE02D072434483466ED4 /* Pods-BSAdaptScreen-swift-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E21E4E93FA611943F9D40FF7DCE00080 /* Pods-BSAdaptScreen-swift-demo-dummy.m */; };
+		AE153CDE7A1A6FC08255F924228FCAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		E672F29174219835CD59939FDEAF2A63 /* BSAdaptScreen-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115A53D90DD8755542CA4CBCAF6ADB9 /* BSAdaptScreen-swift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661883EAE92B3ABE401E2043FD745A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A829D06127CFE1140932C16F2FC489;
+			remoteInfo = "BSAdaptScreen-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01222277809211329A60AFC2B156A4F0 /* BSAdaptScreen-swift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "BSAdaptScreen-swift.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		05E50BCF2BE2EF0F8B7712FC9893718C /* BSAdaptScreen-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSAdaptScreen-swift-umbrella.h"; sourceTree = "<group>"; };
+		1CD558E3EFABB6725FEDA40B10887F8B /* Pods-BSAdaptScreen-swift-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSAdaptScreen-swift-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2115A53D90DD8755542CA4CBCAF6ADB9 /* BSAdaptScreen-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSAdaptScreen-swift-dummy.m"; sourceTree = "<group>"; };
+		286A644C9BD71DE8140AF655B0A8FD8D /* Pods-BSAdaptScreen-swift-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSAdaptScreen-swift-demo.release.xcconfig"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4E6D7B7C71D601E330D99EF7662052D5 /* Pods-BSAdaptScreen-swift-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSAdaptScreen-swift-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5711762B074DBA9E10547941203D1D67 /* Pods-BSAdaptScreen-swift-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSAdaptScreen-swift-demo-frameworks.sh"; sourceTree = "<group>"; };
+		5B09A7B11BAC0C04A6115D6A05D32809 /* Pods-BSAdaptScreen-swift-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSAdaptScreen-swift-demo.modulemap"; sourceTree = "<group>"; };
+		5C705014877568EBB709460472EA4854 /* Pods_BSAdaptScreen_swift_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSAdaptScreen_swift_demo.framework; path = "Pods-BSAdaptScreen-swift-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81104317318C52D4B2C37C334FE17686 /* BSUIViewAdaptScreenExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSUIViewAdaptScreenExtensions.swift; path = "BSAdaptScreen-swift/BSUIViewAdaptScreenExtensions.swift"; sourceTree = "<group>"; };
+		8E4F39D00B53E728B9544D5CC1D8684A /* BSAdaptScreen_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSAdaptScreen_swift.framework; path = "BSAdaptScreen-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		963B7A3EB2855758BCAC51A9117124CC /* BSAdaptScreen-swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSAdaptScreen-swift-Info.plist"; sourceTree = "<group>"; };
+		9B662BB6CE64A39024DDF4E9B402DBD2 /* BSAdaptScreen-swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BSAdaptScreen-swift.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E458D16FD0D3F0529978547F4519827 /* BSAdaptScreen-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "BSAdaptScreen-swift.modulemap"; sourceTree = "<group>"; };
+		A15AB06A2D9AA5E3274D8C7482BFEB48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B186B3EA06118EC66DE80326E46923B5 /* Pods-BSAdaptScreen-swift-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSAdaptScreen-swift-demo-umbrella.h"; sourceTree = "<group>"; };
+		BD63AC1718C0166C3E9689C52D704103 /* BSAdaptScreen-swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSAdaptScreen-swift-prefix.pch"; sourceTree = "<group>"; };
+		CC7AB955C172980A32910EFC17DE02BF /* Pods-BSAdaptScreen-swift-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSAdaptScreen-swift-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DF8BBA258D657E784354CF58E0D4C65D /* Pods-BSAdaptScreen-swift-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSAdaptScreen-swift-demo-Info.plist"; sourceTree = "<group>"; };
+		E21E4E93FA611943F9D40FF7DCE00080 /* Pods-BSAdaptScreen-swift-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSAdaptScreen-swift-demo-dummy.m"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E0BDD594D83033F670282860ADCF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A400C32348A4708A706B3D803A9538A /* Foundation.framework in Frameworks */,
+				4CAD06C4B4789A4E2218740AEC23863B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CB5BECA755C87486541A20B7D9852C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE153CDE7A1A6FC08255F924228FCAB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A8EC783691D6758BFD624D787A0E08 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E68CE473F66071B07C3922D5F0FE42E /* BSAdaptScreen-swift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E68CE473F66071B07C3922D5F0FE42E /* BSAdaptScreen-swift */ = {
+			isa = PBXGroup;
+			children = (
+				81104317318C52D4B2C37C334FE17686 /* BSUIViewAdaptScreenExtensions.swift */,
+				A9CA72F75F75CE8248F4D097BE9FF5BB /* Pod */,
+				9067D7A65BBB04B9EFBB565F1F2C51DC /* Support Files */,
+			);
+			name = "BSAdaptScreen-swift";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8559E617982D2260A6388DE966D5DDB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E4F39D00B53E728B9544D5CC1D8684A /* BSAdaptScreen_swift.framework */,
+				5C705014877568EBB709460472EA4854 /* Pods_BSAdaptScreen_swift_demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9067D7A65BBB04B9EFBB565F1F2C51DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E458D16FD0D3F0529978547F4519827 /* BSAdaptScreen-swift.modulemap */,
+				9B662BB6CE64A39024DDF4E9B402DBD2 /* BSAdaptScreen-swift.xcconfig */,
+				2115A53D90DD8755542CA4CBCAF6ADB9 /* BSAdaptScreen-swift-dummy.m */,
+				963B7A3EB2855758BCAC51A9117124CC /* BSAdaptScreen-swift-Info.plist */,
+				BD63AC1718C0166C3E9689C52D704103 /* BSAdaptScreen-swift-prefix.pch */,
+				05E50BCF2BE2EF0F8B7712FC9893718C /* BSAdaptScreen-swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BSAdaptScreen-swift";
+			sourceTree = "<group>";
+		};
+		A9CA72F75F75CE8248F4D097BE9FF5BB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				01222277809211329A60AFC2B156A4F0 /* BSAdaptScreen-swift.podspec */,
+				A15AB06A2D9AA5E3274D8C7482BFEB48 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B325DDA69B09050FFBC19073A596AAB2 /* Pods-BSAdaptScreen-swift-demo */ = {
+			isa = PBXGroup;
+			children = (
+				5B09A7B11BAC0C04A6115D6A05D32809 /* Pods-BSAdaptScreen-swift-demo.modulemap */,
+				4E6D7B7C71D601E330D99EF7662052D5 /* Pods-BSAdaptScreen-swift-demo-acknowledgements.markdown */,
+				1CD558E3EFABB6725FEDA40B10887F8B /* Pods-BSAdaptScreen-swift-demo-acknowledgements.plist */,
+				E21E4E93FA611943F9D40FF7DCE00080 /* Pods-BSAdaptScreen-swift-demo-dummy.m */,
+				5711762B074DBA9E10547941203D1D67 /* Pods-BSAdaptScreen-swift-demo-frameworks.sh */,
+				DF8BBA258D657E784354CF58E0D4C65D /* Pods-BSAdaptScreen-swift-demo-Info.plist */,
+				B186B3EA06118EC66DE80326E46923B5 /* Pods-BSAdaptScreen-swift-demo-umbrella.h */,
+				CC7AB955C172980A32910EFC17DE02BF /* Pods-BSAdaptScreen-swift-demo.debug.xcconfig */,
+				286A644C9BD71DE8140AF655B0A8FD8D /* Pods-BSAdaptScreen-swift-demo.release.xcconfig */,
+			);
+			name = "Pods-BSAdaptScreen-swift-demo";
+			path = "Target Support Files/Pods-BSAdaptScreen-swift-demo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01A8EC783691D6758BFD624D787A0E08 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8559E617982D2260A6388DE966D5DDB2 /* Products */,
+				E0150C799A344AAF556EF0F600CE7E8D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0150C799A344AAF556EF0F600CE7E8D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B325DDA69B09050FFBC19073A596AAB2 /* Pods-BSAdaptScreen-swift-demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AA1A67CBB7B9FE090FCB3682A0FF8BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2366159A0D020C7EB2C64C0A9AC5E0B5 /* Pods-BSAdaptScreen-swift-demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BABA85CDF04D2B41C7A035634790EA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2ADAF822809B917491E8F56DC6BF31 /* BSAdaptScreen-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48A829D06127CFE1140932C16F2FC489 /* BSAdaptScreen-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD8E2408F48A823B2A492E37FA9A5E0 /* Build configuration list for PBXNativeTarget "BSAdaptScreen-swift" */;
+			buildPhases = (
+				7BABA85CDF04D2B41C7A035634790EA5 /* Headers */,
+				9822969BC4CE8D2AFE44AA05AAA1359A /* Sources */,
+				71E0BDD594D83033F670282860ADCF96 /* Frameworks */,
+				5ED372452B4078CA7A81F0516CD72AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSAdaptScreen-swift";
+			productName = "BSAdaptScreen-swift";
+			productReference = 8E4F39D00B53E728B9544D5CC1D8684A /* BSAdaptScreen_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		860EE9436878804AFF1EB1C9635862A4 /* Pods-BSAdaptScreen-swift-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76761C839CD41F0B974577185ADE650D /* Build configuration list for PBXNativeTarget "Pods-BSAdaptScreen-swift-demo" */;
+			buildPhases = (
+				2AA1A67CBB7B9FE090FCB3682A0FF8BF /* Headers */,
+				39FA02CDE4F393094E202382EF4F4EAC /* Sources */,
+				72CB5BECA755C87486541A20B7D9852C /* Frameworks */,
+				A2E6FDB27DE2EF6CFC0091734B61B70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B23FFFDFBC09F3AC33F7214BAD7DE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BSAdaptScreen-swift-demo";
+			productName = "Pods-BSAdaptScreen-swift-demo";
+			productReference = 5C705014877568EBB709460472EA4854 /* Pods_BSAdaptScreen_swift_demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8559E617982D2260A6388DE966D5DDB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A829D06127CFE1140932C16F2FC489 /* BSAdaptScreen-swift */,
+				860EE9436878804AFF1EB1C9635862A4 /* Pods-BSAdaptScreen-swift-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED372452B4078CA7A81F0516CD72AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E6FDB27DE2EF6CFC0091734B61B70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39FA02CDE4F393094E202382EF4F4EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FCADDED3B0CE02D072434483466ED4 /* Pods-BSAdaptScreen-swift-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9822969BC4CE8D2AFE44AA05AAA1359A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E672F29174219835CD59939FDEAF2A63 /* BSAdaptScreen-swift-dummy.m in Sources */,
+				22F79370230CDF83FD10493C17AA72F8 /* BSUIViewAdaptScreenExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B23FFFDFBC09F3AC33F7214BAD7DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BSAdaptScreen-swift";
+			target = 48A829D06127CFE1140932C16F2FC489 /* BSAdaptScreen-swift */;
+			targetProxy = 661883EAE92B3ABE401E2043FD745A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		59AEC363FEABD0B274BAA1DBA6DD6E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B662BB6CE64A39024DDF4E9B402DBD2 /* BSAdaptScreen-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift.modulemap";
+				PRODUCT_MODULE_NAME = BSAdaptScreen_swift;
+				PRODUCT_NAME = BSAdaptScreen_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BB4F99374AB7A543ED96A6E4D01B56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7AB955C172980A32910EFC17DE02BF /* Pods-BSAdaptScreen-swift-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BSAdaptScreen-swift-demo/Pods-BSAdaptScreen-swift-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSAdaptScreen-swift-demo/Pods-BSAdaptScreen-swift-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7930DAA5A53D9C8CABE4D6512B60B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286A644C9BD71DE8140AF655B0A8FD8D /* Pods-BSAdaptScreen-swift-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BSAdaptScreen-swift-demo/Pods-BSAdaptScreen-swift-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSAdaptScreen-swift-demo/Pods-BSAdaptScreen-swift-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F565EDC23EB0BECE24E1DA9D414710A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B662BB6CE64A39024DDF4E9B402DBD2 /* BSAdaptScreen-swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BSAdaptScreen-swift/BSAdaptScreen-swift.modulemap";
+				PRODUCT_MODULE_NAME = BSAdaptScreen_swift;
+				PRODUCT_NAME = BSAdaptScreen_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD8E2408F48A823B2A492E37FA9A5E0 /* Build configuration list for PBXNativeTarget "BSAdaptScreen-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59AEC363FEABD0B274BAA1DBA6DD6E31 /* Debug */,
+				F565EDC23EB0BECE24E1DA9D414710A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76761C839CD41F0B974577185ADE650D /* Build configuration list for PBXNativeTarget "Pods-BSAdaptScreen-swift-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB4F99374AB7A543ED96A6E4D01B56F /* Debug */,
+				C7930DAA5A53D9C8CABE4D6512B60B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

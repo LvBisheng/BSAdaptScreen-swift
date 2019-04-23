@@ -1,0 +1,6 @@
+framework module BSAdaptScreen_swift {
+  umbrella header "BSAdaptScreen-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
