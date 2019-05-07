@@ -8,6 +8,7 @@
 
 import UIKit
 
+// UI设计的基准屏幕宽度（4.5英寸）
 public let kRefereWidth: CGFloat = 375.0
 
 @UIApplicationMain
@@ -18,10 +19,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         BSAdaptScreenConfig.config { (floatValue) -> (CGFloat) in
+            // 在这里面配置想要的缩放策略
+            
+            // 不缩放
+            //return floatValue
+            
+            // 如果屏幕宽度小于基准屏幕就不缩放，否则进行放大
 //            if UIScreen.main.bounds.size.width >= kRefereWidth {
 //                return floatValue
 //            }
+            
+            // 根据根据屏幕宽度来缩放
             return floatValue * UIScreen.main.bounds.size.width/kRefereWidth
         }
         return true
