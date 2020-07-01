@@ -26,13 +26,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // 不缩放
             //return floatValue
             
-            // 如果屏幕宽度小于基准屏幕就不缩放，否则进行放大
-//            if UIScreen.main.bounds.size.width >= kRefereWidth {
-//                return floatValue
-//            }
-            
-            // 根据根据屏幕宽度来缩放
-            return floatValue * UIScreen.main.bounds.size.width/kRefereWidth
+//            // 根据根据屏幕宽度来缩放
+//            return floatValue * UIScreen.main.bounds.size.width/kRefereWidth
+            // 放大1.2倍
+            return floatValue * 1.2
         }
         return true
     }
